@@ -1,4 +1,7 @@
 {
+    "chitanka/sfb-converter": {
+        "version": "1.0.2"
+    },
     "composer/package-versions-deprecated": {
         "version": "1.10.99.1"
     },

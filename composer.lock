@@ -4,8 +4,48 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4f79005379329a6b500e081ca49e4b17",
+    "content-hash": "f61eb65d517b5995f1f7ebcc191f0f68",
     "packages": [
+        {
+            "name": "chitanka/sfb-converter",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chitanka/sfb-converter.git",
+                "reference": "e6d54e131eef7e7d07443588b373e5e5d2bb54a5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chitanka/sfb-converter/zipball/e6d54e131eef7e7d07443588b373e5e5d2bb54a5",
+                "reference": "e6d54e131eef7e7d07443588b373e5e5d2bb54a5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sfblib\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Borislav Manolov",
+                    "role": "Developer"
+                }
+            ],
+            "description": "SFB converter used by chitanka",
+            "homepage": "https://github.com/chitanka/sfb-converter",
+            "keywords": [
+                "sfb"
+            ],
+            "time": "2019-01-20T13:23:22+00:00"
+        },
         {
             "name": "composer/package-versions-deprecated",
             "version": "1.10.99.1",
@@ -7258,16 +7298,16 @@
     "packages-dev": [
         {
             "name": "nikic/php-parser",
-            "version": "v4.8.0",
+            "version": "v4.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "8c58eb4cd4f3883f82611abeac2efbc3dbed787e"
+                "reference": "aaee038b912e567780949787d5fe1977be11a778"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/8c58eb4cd4f3883f82611abeac2efbc3dbed787e",
-                "reference": "8c58eb4cd4f3883f82611abeac2efbc3dbed787e",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/aaee038b912e567780949787d5fe1977be11a778",
+                "reference": "aaee038b912e567780949787d5fe1977be11a778",
                 "shasum": ""
             },
             "require": {
@@ -7275,7 +7315,7 @@
                 "php": ">=7.0"
             },
             "require-dev": {
-                "ircmaxell/php-yacc": "^0.0.6",
+                "ircmaxell/php-yacc": "^0.0.7",
                 "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0 || ^9.0"
             },
             "bin": [
@@ -7284,7 +7324,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.8-dev"
+                    "dev-master": "4.9-dev"
                 }
             },
             "autoload": {
@@ -7306,7 +7346,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2020-08-09T10:23:20+00:00"
+            "time": "2020-08-18T19:48:01+00:00"
         },
         {
             "name": "symfony/browser-kit",
